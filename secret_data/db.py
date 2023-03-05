@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine, MetaData
 from sqlalchemy.orm import create_session, declarative_base
 
-engine = create_engine('postgresql://postgres:17631864-Perec@localhost:5432/bot')
+engine = create_engine('postgresql://postgres:V7CyStMHLiFsXbrBXkRY@containers-us-west-44.railway.app:6439/railway')
 meta = MetaData()
 Base = declarative_base()
 
